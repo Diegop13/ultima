@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #fff;
+}
+
+#sec-intro{
+	padding: 40px 0;
+}
+
+#sec-intro p{
+	font-size: 20px;
+	color: #848892;
+}
+#sec-intro h1{
+	font-size: 60px;
+	font-weight: 400;
+}
+
+#sec-intro h1::after{
+	content: "";
+	width: 100px;
+	height: 10px;
+	background-color: #00d3f3;
+	display: block;
+	border-radius: 0px 0px 4px 4px;
+}
+.intro{
+	background-image: url(../img/app-img-2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.intro img{
+	max-width: 400px;
+}
+
+#sec-best{
+	text-align: center;
+	background-image: url(../img/app-cover-3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#sec-best h2{
+}
+#sec-best h2::after{
+	content: "";
+	width: 50px;
+	height: 5px;
+	background-color: #00d3f3;
+	display: block;
+	border-radius: 0px 0px 4px 4px;
+	align-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+
+#sec-best{
+	padding: 40px 0;
+}
+
+#sec-best p{
+	font-size: 20px;
+	color: #848892;
+}
+
+#sec-table .texto{
+	text-align: center;
+}
+
+#sec-table h2::after{
+	content: "";
+	width: 50px;
+	height: 5px;
+	background-color: #00d3f3;
+	display: block;
+	border-radius: 0px 0px 4px 4px;
+	align-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+
+#sec-table{
+	padding: 40px 0;
+	background-image: url(../img/app-cover-3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#sec-table p{
+	font-size: 20px;
+	color: #848892;
+}
+
+#sec-table i{
+	color: #000000;
+}
+#sec-table td, #sec-table th{
+	padding: 20px;
+}
+
+#sec-table th{
+	font-size: 18px;
+	
+}
+
+#sec-table th:nth-child(2), 
+#sec-table th:nth-child(3), 
+#sec-table td:nth-child(2), 
+#sec-table td:nth-child(3){
+	text-align: center;
+}
+
+#sec-table th:nth-child(1){
+	border: 2px solid #ddd;
+	background-color: #fff;
+}
+
+#sec-table th:nth-child(2){
+	border: 2px solid #ddd;
+	background-color: #C8C8C8;
+}
+
+#sec-table th:nth-child(3){
+	border: 1px solid #ddd;
+	background-color: #A2A2A2;
+}
+#sec-table td:nth-child(1){
+	border: 2px solid #ddd;
+	background-color: #fff;
+}
+
+#sec-table td:nth-child(2){
+	border: 2px solid #ddd;
+	background-color: #C8C8C8;
+}
+#sec-table td:nth-child(3){
+	border: 2px solid #ddd;
+	background-color: #A2A2A2;
+}
+
+#sec-table .table{
+	border-collapse: separate;
+	border-color: #fff;
+}
+
+#sec-table th:first-child{
+	border-radius: 15px 0 0;
+	border: 2px solid #ddd;
+}
+
+#sec-table th:last-child{
+	border-radius: 0px 15px 0 0 ; 
+	border: 2px solid #ddd;
+}
+
+#sec-table tr:last-child td:first-child{
+	border-radius: 0 0 0 15px; 
+	border: 2px solid #ddd;
+}
+
+#sec-table tr:last-child td:last-child{
+	border-radius: 0px 0px 15px 0px; 
+	border: 2px solid #ddd;
+}
+
+#sec-counter{
+	text-align: center;
+	font-size: 20px;
+}
+
+#sec-counter h4{
+	font-size: 40px;
+	color: #D6D9E2;
+}
+#sec-counter i{
+	font-size: 90px;
+	text-align: center;
+	color: #ABB1BD;
+}
+
+#sec-form{
+	text-align: center;
+	padding: 40px;
+}
+#sec-form h3{
+	color: #848892;
+	font-size: 18px;
+	text-align: center;
+}
+
+#sec-form h2::after{
+	content: "";
+	width: 50px;
+	height: 5px;
+	background-color: #00d3f3;
+	display: block;
+	border-radius: 0px 0px 4px 4px;
+	align-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+
+.sec-espacio{
+	padding: 60px;
+}
+
+#sec-form input{
+	background-color: #fff;
+	padding: 20px 1px;
+	border: 0;
+	border-top: 0;
+	box-shadow: 2px 2px 4px 5px #eee;
+}
+
+.btn-ultima{
+	background-color: #00d3f3;
+	color: #fff;
+	padding: 25px;
+	text-align: center;
+	border-radius: 40px;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.btn-ultima:hover{
+	background-color: #000;
+}
